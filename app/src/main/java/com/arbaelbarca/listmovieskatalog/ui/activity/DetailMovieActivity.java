@@ -214,6 +214,7 @@ public class DetailMovieActivity extends BaseActivity implements DetailMoviesVie
         if (resultsItemArrayList.size() > 0) {
             adapterListReviewsMovies.setReviewsArrayList(resultsItemArrayList);
             adapterListReviewsMovies.notifyDataSetChanged();
+            txtNotFound.setVisibility(View.GONE);
         } else {
             hideProgress();
             txtNotFound.setVisibility(View.VISIBLE);
