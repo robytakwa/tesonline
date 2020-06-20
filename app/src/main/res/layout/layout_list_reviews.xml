@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:background="@color/text_color_white"
+    android:elevation="3dp"
+    android:orientation="horizontal"
+    app:cardCornerRadius="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tv_item_name_reviews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#413E3E"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="Avenger" />
+
+
+        <TextView
+            android:id="@+id/tv_desc_reviews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:textSize="12sp"
+            tools:text="More than two decades have passed since Sarah Connor pre" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

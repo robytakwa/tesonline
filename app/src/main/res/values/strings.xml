@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GithubSearchUser</string>
+    <string name="text_category">Category</string>
+    <string name="text_upcoming">Upcoming</string>
+    <string name="text_popular">Popular</string>
+    <string name="text_toprated">Top Rated</string>
+    <string name="text_nowplaying">Now Playing</string>
+    <string name="text_upcoming_new">upcoming</string>
+    <string name="text_nowplaying_api">now_playing</string>
+    <string name="text_popular_api">popular</string>
+    <string name="text_toprated_api">top_rated</string>
+    <string name="text_server_eror">Terjadi kesalahan pada server</string>
+    <string name="text_overview">Overview</string>
+</resources>
