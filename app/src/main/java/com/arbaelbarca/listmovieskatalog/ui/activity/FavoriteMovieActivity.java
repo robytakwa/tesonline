@@ -3,6 +3,7 @@ package com.arbaelbarca.listmovieskatalog.ui.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 
 import androidx.appcompat.widget.Toolbar;
@@ -40,6 +41,8 @@ public class FavoriteMovieActivity extends BaseActivity {
         intent.putExtra(Constants.DATA_ITEMS, itemsItem);
         startActivity(intent);
     };
+    @BindView(R.id.llNotFound)
+    LinearLayout llNotFound;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,10 +79,9 @@ public class FavoriteMovieActivity extends BaseActivity {
             adapterFavoriteMovies.setMovies(resultsItems);
             adapterFavoriteMovies.setOnClickItem(onClickItem);
             adapterFavoriteMovies.notifyDataSetChanged();
-
         } else {
             progressBar.setVisibility(View.GONE);
-            showToast("Tidak ada data favorite");
+            llNotFound.setVisibility(View.VISIBLE);
         }
     }
 }

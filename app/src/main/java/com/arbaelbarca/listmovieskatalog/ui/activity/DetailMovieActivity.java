@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RatingBar;
 import android.widget.RelativeLayout;
@@ -74,8 +75,9 @@ public class DetailMovieActivity extends BaseActivity implements DetailMoviesVie
     RecyclerView rvTags;
     @BindView(R.id.btnFloatFav)
     FloatingActionButton btnFloatFav;
-    @BindView(R.id.txtNotFound)
-    TextView txtNotFound;
+    @BindView(R.id.llNotFound)
+    LinearLayout llNotFound;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -214,11 +216,9 @@ public class DetailMovieActivity extends BaseActivity implements DetailMoviesVie
         if (resultsItemArrayList.size() > 0) {
             adapterListReviewsMovies.setReviewsArrayList(resultsItemArrayList);
             adapterListReviewsMovies.notifyDataSetChanged();
-            txtNotFound.setVisibility(View.GONE);
         } else {
             hideProgress();
-            txtNotFound.setVisibility(View.VISIBLE);
-            txtNotFound.setText("Not found data reviews");
+            llNotFound.setVisibility(View.VISIBLE);
         }
     }
 
