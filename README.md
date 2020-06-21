@@ -2,7 +2,7 @@
 
 The catalog movie works
 
-The following are some components that are used
+The following are some point that are used
 1. Room
 2. Rx Java
 3. MVP Patern
