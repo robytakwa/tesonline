@@ -9,7 +9,7 @@ The following are some components that are used
 
 This application only displays the movie list and movie details and review reviews in the movie details
 
-Screenshoot Application
+Screenshoot Application : 
 
-![alt text](https//github.com/arbaelbarca/MovieKatalog_MVP/blob/master/Screenshoot/detail%20movie.PNG?raw=true)
-
+![List Movie](https://github.com/arbaelbarca/MovieKatalog_MVP/blob/master/Screenshoot/list%20movie.PNG?raw=true)
+![Detail Movie](https//github.com/arbaelbarca/MovieKatalog_MVP/blob/master/Screenshoot/detail%20movie.PNG?raw=true)
