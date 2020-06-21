@@ -2,8 +2,6 @@ package com.arbaelbarca.listmovieskatalog.ui.activity;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class DetailMovieActivityTest {
 
     @Test

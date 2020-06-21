@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GithubSearchUser</string>
+    <string name="app_name">Movie Katalog</string>
     <string name="text_category">Category</string>
     <string name="text_upcoming">Upcoming</string>
     <string name="text_popular">Popular</string>
