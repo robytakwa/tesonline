@@ -1,6 +1,6 @@
 # MovieKatalog_MVP
 
-the MVP catalog movie works
+The catalog movie works
 
 The following are some components that are used
 1. Room
