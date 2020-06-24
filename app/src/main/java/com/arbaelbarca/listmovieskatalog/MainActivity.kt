@@ -117,15 +117,11 @@ class MainActivity : BaseActivity(), MainContract.MainView, PopupMenu.OnMenuItem
 
 
     override fun onMenuItemClick(menuItem: MenuItem): Boolean {
-        if (menuItem.itemId == R.id.ic_upcoming) {
-            getListType(getString(R.string.text_upcoming_new))
-        } else if (menuItem.itemId == R.id.ic_nowplaying) {
-            getListType(getString(R.string.text_nowplaying_api))
-        } else if (menuItem.itemId == R.id.ic_popular) {
-            getListType(getString(R.string.text_popular_api))
-        } else if (menuItem.itemId == R.id.ic_toprated) {
-            getListType(getString(R.string.text_toprated_api))
-
+        when {
+            menuItem.itemId == R.id.ic_upcoming -> getListType(getString(R.string.text_upcoming_new))
+            menuItem.itemId == R.id.ic_nowplaying -> getListType(getString(R.string.text_nowplaying_api))
+            menuItem.itemId == R.id.ic_popular -> getListType(getString(R.string.text_popular_api))
+            menuItem.itemId == R.id.ic_toprated -> getListType(getString(R.string.text_toprated_api))
         }
         return true
     }
