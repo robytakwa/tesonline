@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.arbaelbarca.listmovieskatalog">
+    package="com.robytakwa.listpicturekatalog">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,9 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.arbaelbarca.listmovieskatalog.ui.activity.FavoriteMovieActivity"></activity>
-        <activity android:name="com.arbaelbarca.listmovieskatalog.ui.activity.DetailMovieActivity" />
-        <activity android:name="com.arbaelbarca.listmovieskatalog.MainActivity">
+        <activity android:name="com.robytakwa.listpicturekatalog.ui.activity.FavoriteMovieActivity"></activity>
+        <activity android:name="com.robytakwa.listpicturekatalog.ui.activity.DetailMovieActivity" />
+        <activity android:name="com.robytakwa.listpicturekatalog.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -4,8 +4,7 @@
 
     <item
         android:id="@+id/ic_love_fav"
-        android:icon="@drawable/ic_love_red_main"
-        android:title="love"
+        android:title="About"
         android:visible="true"
         app:showAsAction="ifRoom" />
 
